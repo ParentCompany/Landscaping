@@ -29,6 +29,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 600px) {
+  #mobile-image {
+    visibility: hidden;
+    display: none;
+  }
+}
 </style>
 </head>
 
@@ -263,12 +270,12 @@ html {
 										<figure>
 											<img src="images/12.jpeg" alt="Portfolio">
 										</figure>
-										<!-- <figure>
-												<img src="13.jpeg" alt="Portfolio">
-											</figure> -->
-											<!-- <figure>
-												<img src="14.jpeg" alt="Portfolio">
-											</figure> -->
+										<figure>
+												<img src="images/17.jpeg" alt="Portfolio">
+											</figure>
+											<figure>
+												<img src="images/18.jpeg" alt="Portfolio">
+											</figure>
 											<figure>
 												<img src="images/15.jpeg" alt="Portfolio">
 											</figure>
@@ -277,7 +284,7 @@ html {
 											</figure>
 									
 								</div>
-								<div class="thumbs js-flickity" data-flickity-options="{ &quot;imagesLoaded&quot;: true, &quot;asNavFor&quot;: &quot;#gallery-1 .slides&quot;, &quot;contain&quot;: true, &quot;prevNextButtons&quot;: false, &quot;pageDots&quot;: false }">
+								<div id="mobile-image" class="thumbs js-flickity" data-flickity-options="{ &quot;imagesLoaded&quot;: true, &quot;asNavFor&quot;: &quot;#gallery-1 .slides&quot;, &quot;contain&quot;: true, &quot;prevNextButtons&quot;: false, &quot;pageDots&quot;: false }">
 									<div class="col-lg-2 col-md-3 col-sm-6" data-custom-image="true" data-custom-image-selector="{ &quot;src&quot;: &quot;.nav-image&quot; }">
 										<figure>
 											<img class="nav-image" src="images/1.jpeg" alt="orange tree">
@@ -338,16 +345,16 @@ html {
 												<img class="nav-image" src="images/12.jpeg" alt="orange tree">
 											</figure>
 										</div>
-										<!-- <div class="col-lg-2 col-md-3 col-sm-6" data-custom-image="true" data-custom-image-selector="{ &quot;src&quot;: &quot;.nav-image&quot; }">
+										<div class="col-lg-2 col-md-3 col-sm-6" data-custom-image="true" data-custom-image-selector="{ &quot;src&quot;: &quot;.nav-image&quot; }">
 												<figure>
-													<img class="nav-image" src="13.jpeg" alt="orange tree">
+													<img class="nav-image" src="images/17.jpeg" alt="orange tree">
 												</figure>
 											</div>
 											<div class="col-lg-2 col-md-3 col-sm-6" data-custom-image="true" data-custom-image-selector="{ &quot;src&quot;: &quot;.nav-image&quot; }">
 												<figure>
-													<img class="nav-image" src="14.jpeg" alt="orange tree">
+													<img class="nav-image" src="images/18.jpeg" alt="orange tree">
 												</figure>
-											</div> -->
+											</div>
 											<div class="col-lg-2 col-md-3 col-sm-6" data-custom-image="true" data-custom-image-selector="{ &quot;src&quot;: &quot;.nav-image&quot; }">
 												<figure>
 													<img class="nav-image" src="images/15.jpeg" alt="orange tree">
@@ -418,8 +425,6 @@ html {
 			<!-- Start Contact -->
 
 			
-
-			
 			<section id="contact" style="background-color: #ebf3f4;" class="section pt-70 pb-70">
 
 				<div class="container">
@@ -435,7 +440,7 @@ html {
 						</div>
 						<div class="col-lg-6 col-md-12">
 							<h4>
-								<a class="dark" href="tel:+447773738981" >+44 7773 738981</a>
+								<a class="dark" href="tel:447904076551" >+44 7904 076551</a>
 							</h4>
 						</div>
 					</div>
